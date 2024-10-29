@@ -5,7 +5,7 @@ import Page from '../../Components/Page/page';
 const Home = () => {
     return (
       <Page>
-        
+
       </Page>
     );
 };
