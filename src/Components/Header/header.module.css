@@ -6,6 +6,12 @@ header {
   z-index: 100;
 }
 
+.scrolled {
+  background-color: #FDFEFD;
+  transition: 0.3s ease;
+  box-shadow:  1px 1px 15px #f5f5f5;
+}
+
 .logo {
   width: 6rem;
   height: auto;
@@ -14,6 +20,13 @@ header {
 a {
   text-decoration: none;
   color: #465045;
+  transition: 0.2s ease;
+}
+
+a:hover {
+  color: #7F9D69;
+  cursor: pointer;
+
 }
 
 nav {
@@ -33,7 +46,7 @@ nav {
 
 .activeNav {
   color: #668355;
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 @media (min-width: 1842px) {
