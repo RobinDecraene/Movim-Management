@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+a {
+  text-decoration: none;
+  color: #465045;
+}
+
+nav a {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1.25rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 1rem;
+}
+
+.navRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 26rem;
+}
+
+.activeNav {
+  color: #668355;
+  font-weight: bolder;
+}
+
+@media (min-width: 1842px) {
+  nav {
+    width: 60%;
+  }
+}
