@@ -12,7 +12,6 @@ const Card = ({ link, altImg, title, children, date}) => {
           <p>{children}</p>
           <p className={style.cardDate}>{date}</p>
         </div>
-
       </a>
     );
 };

@@ -1,13 +1,16 @@
 .card {
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
   box-shadow:  3px 3px 10px #bcbaba;
   overflow: hidden;
-  width: 15rem;
+  width: 18rem;
   transition: 0.4s ease;
+  margin-bottom: 3rem;
 }
 
 .card:hover {
-  width: 16rem;
+  width: 19rem;
   cursor: pointer;
 }
 
