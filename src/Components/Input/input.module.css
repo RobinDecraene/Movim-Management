@@ -1,0 +1,10 @@
+input, textarea {
+  border: 1px solid #668355;
+  border-radius: 1.25rem;
+  padding: 0.6rem 1.5rem;
+  box-shadow: inset 1px 1px 5px #bcbaba;
+}
+
+textarea {
+
+}
