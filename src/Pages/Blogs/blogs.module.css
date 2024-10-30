@@ -1,0 +1,33 @@
+.mySwiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiperSlide {
+  display: flex !important;
+  flex-direction: row;
+  box-shadow:  3px 3px 8px #bcbaba;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  margin: 3rem;
+  max-width: 95%;
+}
+
+.swiperSlideText {
+  padding: 1.5rem;
+  width: 90%;
+}
+
+.swiperSlideImg {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+.blogCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
