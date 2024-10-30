@@ -3,9 +3,9 @@ import style from './button.module.css';
 
 const Button = ({children, link}) => {
     return (
-      <button href={link} target="_blank" rel="noopener noreferrer">
+      <a href={link} className={style.button} target="_blank" rel="noopener noreferrer">
         {children}
-      </button>
+      </a>
     );
 };
 
