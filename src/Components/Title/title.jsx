@@ -3,7 +3,7 @@ import style from './title.module.css';
 
 const Title = ({ children, customClass}) => {
     return (
-      <h2 className={`${style.section} ${customClass}`}>{children}</h2>
+      <h2 className={customClass}>{children}</h2>
     );
 };
 
