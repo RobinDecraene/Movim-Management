@@ -33,7 +33,7 @@ const Footer = () => {
           <Link to={ROUTES.blogs} className={location.pathname === ROUTES.blogs ? style.activeNav : ''}>Blogs</Link>
           <Link to={ROUTES.contact} className={location.pathname === ROUTES.contact ? style.activeNav : ''}>Contact</Link>
         </div>
-        <FaLinkedin size={25} color='#668355'/>
+        <a href='https://www.linkedin.com/in/bastiensarah/' target="_blank" rel="noopener noreferrer"><FaLinkedin size={25} color='#668355'/></a>
       </div>
       <p className={style.copyright}>© 2024 Movim Management</p>
     </footer>

@@ -48,9 +48,3 @@ nav {
   color: #668355;
   font-weight: 800;
 }
-
-@media (min-width: 1842px) {
-  nav {
-    width: 60%;
-  }
-}

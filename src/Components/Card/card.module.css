@@ -15,7 +15,6 @@
   width: 18rem;
   cursor: pointer;
   margin: 0;
-
 }
 
 .cardImg {
@@ -36,4 +35,24 @@
   font-size: 0.9rem;
   color: #7F9D69;
   margin-top: 1rem;
+}
+
+@media (max-width: 51.25rem) {
+  .card {
+    margin: 0 0 3rem 0;
+    width: 17rem;
+    height: 26rem;
+  }
+}
+
+@media (max-width: 64.375rem  ) {
+  .card {
+    width: 15rem;
+    height: 25rem;
+  }
+  
+  .card:hover {
+    height: 26rem;
+    width: 16rem;
+  }
 }

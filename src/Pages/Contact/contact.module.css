@@ -10,7 +10,7 @@
   background-color: #A3C585;
   width: 30%;
   border-radius: 1.25rem 1.25rem 0 0;
-  height: 54vh;
+  height: 55vh;
   padding-top: 3rem;
   padding-right: 3rem;
   padding-left: 3rem;
@@ -54,4 +54,10 @@
 
 .marginInput {
   margin-right: 1.5rem;
+}
+
+@media (min-width: 120rem) {
+  .contact {
+    height: 75.3vh;
+  }  
 }

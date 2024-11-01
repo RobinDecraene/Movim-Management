@@ -18,13 +18,12 @@ import SecondaireButton from '../../Components/Button/secondairebutton';
 const Blogs = () => {
     return (
       <Page>
-        <Section customClass={style.swiperSection}>
           <Swiper
             style={{
               '--swiper-pagination-color': '#0D1B2A',
             }}
             slidesPerView={1}
-            spaceBetween={100}
+            spaceBetween={300}
             pagination={{ clickable: true }}
             mousewheel={true}
             modules={[Mousewheel, Pagination]}
@@ -62,27 +61,7 @@ const Blogs = () => {
               </div>
               <img src={placeholder} alt='blogpost' className={style.swiperSlideImg}/>
             </SwiperSlide>
-
-            <SwiperSlide className={style.swiperSlide}>
-              <div className={style.swiperSlideText}>
-                <SmallestTitle>Featured</SmallestTitle>
-                <Title>Lorem ipsum dolor sit amet, consetetur</Title>
-                <p>
-                  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-                  sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet 
-                  clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem 
-                  ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
-                  ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                </p>
-                <SecondaireButton>Lees verder</SecondaireButton>
-              </div>
-              <div className={style.swiperSlideImg}>
-                <img src={placeholder} alt='blogpost' />
-              </div>
-
-            </SwiperSlide>
           </Swiper>
-        </Section>
 
         <Section customClass={style.sectionFlex}>
           <Title customClass={style.titleBlog}>Recente Blog Posts</Title>
@@ -136,7 +115,7 @@ const Blogs = () => {
             />
           </div>
             
-            <Button>Laad meer</Button>
+            <Button customClass={style.marginButton}>Laad meer</Button>
 
         </Section>
       </Page>
