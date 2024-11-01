@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './title.module.css';
 
-const Title = ({ children}) => {
+const Title = ({ children, customClass}) => {
     return (
-      <h2>{children}</h2>
+      <h2 className={`${style.section} ${customClass}`}>{children}</h2>
     );
 };
 
