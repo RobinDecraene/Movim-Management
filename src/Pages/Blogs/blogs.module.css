@@ -1,3 +1,7 @@
+.swiperSection {
+  padding-top: 0;
+}
+
 .mySwiper {
   display: flex;
   justify-content: center;
@@ -15,14 +19,30 @@
 }
 
 .swiperSlideText {
-  padding: 1.5rem;
-  width: 90%;
+  padding: 3rem;
+  width: 40%;
+}
+
+.swiperSlideText p {
+  margin-bottom: 2rem;
 }
 
 .swiperSlideImg {
-  height: auto;
-  width: 100%;
-  object-fit: contain;
+  overflow: hidden;
+  width: 60%;
+}
+
+.swiperSlideImg img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+.sectionFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .blogCards {
@@ -30,4 +50,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+}
+
+.titleBlog {
+  align-self: start;
 }

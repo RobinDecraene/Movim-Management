@@ -12,12 +12,13 @@ import { Mousewheel, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Card from '../../Components/Card/card';
+import SecondaireButton from '../../Components/Button/secondairebutton';
 
 
 const Blogs = () => {
     return (
       <Page>
-        <Section>
+        <Section customClass={style.swiperSection}>
           <Swiper
             style={{
               '--swiper-pagination-color': '#0D1B2A',
@@ -41,7 +42,7 @@ const Blogs = () => {
                   ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
                   ut labore et dolore magna aliquyam erat, sed diam voluptua.
                 </p>
-                <Button>Lees verder</Button>
+                <SecondaireButton>Lees verder</SecondaireButton>
               </div>
               <img src={placeholder} alt='blogpost' className={style.swiperSlideImg}/>
             </SwiperSlide>
@@ -57,7 +58,7 @@ const Blogs = () => {
                   ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
                   ut labore et dolore magna aliquyam erat, sed diam voluptua.
                 </p>
-                <Button>Lees verder</Button>
+                <SecondaireButton>Lees verder</SecondaireButton>
               </div>
               <img src={placeholder} alt='blogpost' className={style.swiperSlideImg}/>
             </SwiperSlide>
@@ -73,15 +74,18 @@ const Blogs = () => {
                   ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
                   ut labore et dolore magna aliquyam erat, sed diam voluptua.
                 </p>
-                <Button>Lees verder</Button>
+                <SecondaireButton>Lees verder</SecondaireButton>
               </div>
-              <img src={placeholder} alt='blogpost' className={style.swiperSlideImg}/>
+              <div className={style.swiperSlideImg}>
+                <img src={placeholder} alt='blogpost' />
+              </div>
+
             </SwiperSlide>
           </Swiper>
         </Section>
 
-        <Section>
-          <Title>Recente Blog Posts</Title>
+        <Section customClass={style.sectionFlex}>
+          <Title customClass={style.titleBlog}>Recente Blog Posts</Title>
           <div className={style.blogCards}>
             <Card
             title={'Lorem Ipsum Dolor Sit Amet, Consetetur'}
@@ -131,6 +135,8 @@ const Blogs = () => {
             date={'30/10/2024'}
             />
           </div>
+            
+            <Button>Laad meer</Button>
 
         </Section>
       </Page>

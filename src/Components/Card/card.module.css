@@ -4,14 +4,18 @@
   border-radius: 20px;
   box-shadow:  3px 3px 10px #bcbaba;
   overflow: hidden;
-  width: 18rem;
+  width: 17rem;
   transition: 0.4s ease;
-  margin-bottom: 3rem;
+  margin: 0.5rem 0.5rem 3rem 0.5rem;
+  height: 26rem;
 }
 
 .card:hover {
-  width: 19rem;
+  height: 27rem;
+  width: 18rem;
   cursor: pointer;
+  margin: 0;
+
 }
 
 .cardImg {
@@ -20,7 +24,12 @@
 }
 
 .cardText {
-  padding: 1rem;
+  padding: 1.5rem;
+  transition: 0.4s ease;
+}
+
+.card:hover .cardText {
+  padding: 2rem;
 }
 
 .cardDate {
