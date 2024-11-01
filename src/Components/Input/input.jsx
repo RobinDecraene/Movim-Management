@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './input.module.css';
 
-const Input = ({placeholder}) => {
+const Input = ({placeholder, customClass}) => {
     return (
-      <input placeholder={placeholder}/>
+      <input className={`${style.section} ${customClass}`} placeholder={placeholder}/>
     );
 };
 

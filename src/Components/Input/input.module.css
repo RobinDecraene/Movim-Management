@@ -5,6 +5,6 @@ input, textarea {
   box-shadow: inset 1px 1px 5px #bcbaba;
 }
 
-textarea {
-
+input {
+  width: 100%;
 }
