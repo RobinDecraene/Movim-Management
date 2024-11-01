@@ -1,0 +1,57 @@
+.sectionRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+
+.contact {
+  color: #FDFEFD;
+  background-color: #A3C585;
+  width: 30%;
+  border-radius: 1.25rem 1.25rem 0 0;
+  height: 54vh;
+  padding-top: 3rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.titleContact {
+  margin-bottom: 3rem;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.6rem;
+  align-items: center;
+}
+
+.contactInfo p, .contactInfo a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #FDFEFD;
+}
+
+.whiteTitle {
+  color: #FDFEFD;
+  margin-bottom: 0.8rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.form span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.marginInput {
+  margin-right: 1.5rem;
+}

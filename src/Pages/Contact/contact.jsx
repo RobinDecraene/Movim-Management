@@ -14,35 +14,39 @@ import Text from '../../Components/Input/text';
 const Contact = () => {
     return (
         <Page>
-          <Section>
-            <div>
-                <span>
-                    <Title>Neem contact op met Movim management!</Title>
+          <Section customClass={style.sectionRow}>
+            <div className={style.contact}>
+                <div className={style.titleContact}>
+                    <Title customClass={style.whiteTitle}>Neem contact op met Movim management!</Title>
                     <p>Stel gerust je vraag of zeg gewoon even hallo</p>
-                </span>
+                </div>
                 <div>
-                    <span>
-                        <FaLocationDot />
+                    <span className={style.contactInfo}>
+                        <FaLocationDot size={25} />
                         <p>Gelegen in Gent, werkzaam in Vlaanderen</p>
                     </span>
 
-                    <span>
-                        <MdEmail />
+                    <span className={style.contactInfo}>
+                        <MdEmail size={25}/>
                         <p>email@movim.com</p>
                     </span>
 
-                    <span>
-                        <FaLinkedin />
-                        <p>https://www.linkedin.com/in/bastiensarah/</p>
+                    <span className={style.contactInfo}>
+                        <FaLinkedin size={25}/>
+                        <a href='https://www.linkedin.com/in/bastiensarah/' target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/bastiensarah/</a>
                     </span>
                 </div>
             </div>
 
-            <div>
-                <Input placeholder={'naam'}/>
-                <Input placeholder={'voornaam'}/>
-                <Input placeholder={'email'}/>
-                <Input placeholder={'telefoonnummer'}/>
+            <div className={style.form}>
+                <span>
+                    <Input placeholder={'naam'} customClass={style.marginInput}/>
+                    <Input placeholder={'voornaam'}/>
+                </span>
+                <span>
+                    <Input placeholder={'email'} customClass={style.marginInput}/>
+                    <Input placeholder={'telefoonnummer'}/>
+                </span>
                 <Text placeholder={'bericht'}/>
                 <Button>Verstuur</Button>
             </div>
