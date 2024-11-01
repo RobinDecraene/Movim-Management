@@ -21,6 +21,7 @@ const AboutMe = () => {
               eens te verleggen. Daarbij komt mijn doorzettingsvermogen goed van pas. Iets wat ook terugkomt in mijn
               hobby als duursporter.
             </p>
+
             <p>
               En daar komen werk en hobby voor mij samen: in mijn ogen is elke organisatie een levend organisme.
               Sportieve prestaties komen er niet zomaar: ze vragen een goed plan, structuur om het plan uit te voeren
@@ -28,6 +29,15 @@ const AboutMe = () => {
               organisatie vraagt vaak een plan om in vorm te geraken en stappen vooruit te zetten.
               Ondertussen ben ik ruim 25 jaar aan de slag en is zorgen voor verandering vrij snel een rode draad in
               mijn carrière geworden.
+            </p>
+
+            <p>
+              Door mijn ervaring ben ik een generalist die vanuit strategische vraagstukken de puzzel
+              weet te leggen, ook al is die complex. Zowel digitalisering, aanpassen van de
+              werkorganisatie, procesoptimalisatie, data-analyse, draagkracht van de organisatie,
+              organisatieontwikkeling, teams motiveren om te veranderen, en ga zo maar door ... komen
+              hierbij kijken. Bij al dat puzzelen stel ik steeds de waarden proactief - energiek -
+              daadkrachtig - oprecht voorop.
             </p>
           </div>
           <div>
