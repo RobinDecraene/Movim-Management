@@ -1,14 +1,17 @@
 .button {
   background-color: #668355;
   border: none;
-  padding: 0.6rem 1.5rem;
+  padding: 0.6rem 2rem;
   border-radius: 1.5625rem;
   color: #FDFEFD;
   box-shadow:  3px 3px 8px #bcbaba;
   transition: 0.4s ease;
+  width: fit-content;
+  margin-top: 1.5rem;
 }
 
 .button:hover {
-  padding: 0.7rem 1.9rem;
+  padding: 0.7rem 2.5rem;
   cursor: pointer;
+  color: #FDFEFD;
 }
